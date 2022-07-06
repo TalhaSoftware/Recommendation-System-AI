@@ -1,0 +1,27 @@
+Yapılması gerekenler
+1-cmd aç
+sırayla şu komutları gir
+pip install pandas
+pip install numpy
+pip install mlxtend
+
+Bende zaten kurulu bunlar o yüzden böyle diyor sizde biraz bekletir
+Daha sonra Programı konsoldan veya herhangi bir ide den çalıştırabilirsiniz
+konsoldan çalıştırmak için dosya klasöründek boş bir yere shift+sağ click
+Powershell penceresini buradan başlata tıklıyorsunuz
+last.py yazdığım yere dosya ismini yazacaksınız
+şu şekil olacak : python dosya_ismi.py
+Gördüğünüz gibi sıkıntısız çalıştı şimdi kodun anlatımına geçelim
+en baştaki kısımda kütüphaneleri ekliyoruz
+bu kısımda sizin txt olarak verdiğiniz formatı işlenebilir bir hale sokma işlemi yapılıyor
+Bu kısımda kac farklı oyun ve kac farklı alıcı olduğu bulunuyor
+Bu ilişki matrisi dediğimiz şey One Hot Encoding denen bir olaydan geliyor bütün oyunları bir tabloya döküyor ve kullanıcın aldıklarına 1 almadıklarına 0 diyor
+onu oluşturuyoruz
+
+BU kısımda yazdığımız fonksiyonları kullanmak için çağırıyoruz
+Bu alttaki kodlar transactionmatrixdeki oyunları listeye almak için kullanıyoruz
+Buradaki 1001 toplam veri sayısı siz bana 1000 tane veri verdiniz o yüzden buraya 1001 yazdım
+eğer daha sonra veriyi çoğaltırsanız tek yapmanız gereken 1001 yazan kısma toplam veri sayısını yazmak
+
+En sonda algoritmayı çalıştırdık tavsiye yapacak olan deneyerek test ettiğim güzel sonuç veren parametrelerle algoritmayı eğittik
+Ve en sonda sonucu ekrana bastırdık
